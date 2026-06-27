@@ -35,4 +35,9 @@ class TaskTest {
        String binary= Task6.toBinary(42);
        System.out.println(binary);
     }
+
+    @Test
+    void test8() {
+       Task8.GetNarcissus();
+    }
 }
