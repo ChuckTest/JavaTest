@@ -27,10 +27,11 @@ public class Task3 {
             super(tempName, tempAge);
             salary = tempSalary;
         }
-        
+
         double salary;
-        void computeSalary(double hours,int rate) {
-            salary = hours * rate;
+        public double computeSalary(double hours,int rate) {
+            double tempSalary = hours * rate;
+            return salary+tempSalary;
         }
     }
 }
