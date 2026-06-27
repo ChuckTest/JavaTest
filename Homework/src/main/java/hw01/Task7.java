@@ -6,6 +6,14 @@ public class Task7 {
         double centerY;
         double radius;
 
+        public Circle() {
+            this(1.0);
+        }
+
+        public Circle(double tempRadius) {
+            radius = tempRadius;
+        }
+
         double getArea() {
             return Math.PI * radius * radius;
         }
