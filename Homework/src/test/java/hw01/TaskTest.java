@@ -32,7 +32,7 @@ class TaskTest {
 
     @Test
     void test6() {
-       String binary= Task6.toBinary(99);
+       String binary= Task6.toBinary(42);
        System.out.println(binary);
     }
 }
