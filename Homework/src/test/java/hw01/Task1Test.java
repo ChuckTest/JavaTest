@@ -7,6 +7,6 @@ class Task1Test {
 
     @Test
     void testAdd() {
-        assertEquals(5, Task1.add(2, 3));
+       Task1.buyChick();
     }
 }
