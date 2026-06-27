@@ -5,14 +5,14 @@ public class Task1 {
     for(int i=0;i<=100/5;i++)
     {
         for(int j=0;j<=100/3;j++){
-            int k=100-5*i-3*j;
-            if(i+j+k==100&&(k%3)==0){
-                System.out.println(String.format("买%d只公鸡,买%d只母鸡,买%d只小鸡",i,j,k));
+            int k=100-5*i-3*j;//买小鸡所花的钱
+            if(k*3+i+j==100){
+                System.out.println(String.format("买%d只公鸡,买%d只母鸡,买%d只小鸡",i,j,k*3));
             }
-            else
+            /*else
             {
-                System.out.println(String.format("失败 买%d只公鸡,买%d只母鸡,买%d只小鸡",i,j,k));
-            }
+                System.out.println(String.format("失败 买%d只公鸡,买%d只母鸡,买%d只小鸡",i,j,k*3));
+            }*/
         }
     }
     }
