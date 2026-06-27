@@ -19,6 +19,15 @@ public class Task3 {
     }
 
     public class Employee extends Person{
+        Employee(){
+
+        }
+
+        Employee(String tempName,int tempAge, int tempSalary) {
+            super(tempName, tempAge);
+            salary = tempSalary;
+        }
+        
         int salary;
         void computeSalary(int hours,int rate) {
             salary = hours * rate;
