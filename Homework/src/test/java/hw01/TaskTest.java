@@ -24,4 +24,9 @@ class TaskTest {
     void test4() {
        Task4.Compute();
     }
+
+    @Test
+    void test5() {
+        Task5.PrintFibonacci();
+    }
 }
