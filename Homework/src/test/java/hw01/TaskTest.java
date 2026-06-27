@@ -19,4 +19,9 @@ class TaskTest {
         int[] result = Task2.arrayMerge(a,b);
         assertArrayEquals(c, result);
     }
+
+    @Test
+    void test4() {
+       Task4.Compute();
+    }
 }
