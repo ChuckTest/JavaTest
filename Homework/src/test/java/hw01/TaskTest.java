@@ -29,4 +29,10 @@ class TaskTest {
     void test5() {
         Task5.PrintFibonacci();
     }
+
+    @Test
+    void test6() {
+       String binary= Task6.toBinary(99);
+       System.out.println(binary);
+    }
 }
