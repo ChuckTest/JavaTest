@@ -23,13 +23,13 @@ public class Task3 {
 
         }
 
-        Employee(String tempName,int tempAge, int tempSalary) {
+        Employee(String tempName,int tempAge, double tempSalary) {
             super(tempName, tempAge);
             salary = tempSalary;
         }
         
-        int salary;
-        void computeSalary(int hours,int rate) {
+        double salary;
+        void computeSalary(double hours,int rate) {
             salary = hours * rate;
         }
     }
